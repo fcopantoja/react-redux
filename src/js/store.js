@@ -62,6 +62,12 @@ function postsApp(state, action) {
       })
 
     case 'UPDATE_POST':
+      /*$.ajax('http://jsonplaceholder.typicode.com/posts/', {
+        method: 'UPDATE',
+        data: action.post
+      }).then(function(data) {
+      })*/
+        
       var state = state
       state.posts[action.index].title = action.post.title
       state.posts[action.index].body = action.post.content

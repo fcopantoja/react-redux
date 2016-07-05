@@ -28,5 +28,5 @@ app.listen(3100, function (err) {
     return console.error(err);
   }
 
-  console.log('Web listening at http://localhost:3000/.');
+  console.log('Web listening at http://localhost:3100/.');
 });
